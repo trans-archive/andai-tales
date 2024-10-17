@@ -37,10 +37,15 @@ jobs:
       - name: 安装 Wrangler
         run: pnpm add -g wrangler@3
 
+      # - name: 将构建输出复制到指定路径
+      #   run: |
+      #     mkdir -p docs/.vitepress/dist/andai-tales  # 确保目标路径存在
+      #     cp -R docs/.vitepress/dist/* docs/.vitepress/dist/andai-tales/  # 将构建输出复制到 andai-tales 路径
+
       - name: 发布到 Cloudflare Pages
         uses: cloudflare/pages-action@v1
         with:
           apiToken: ${{ secrets.CLOUDFLARE_PAGES_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_PAGES_ACCOUNT }}
-          projectName: trans-archive
+          projectName: andai-tales
           directory: docs/.vitepress/dist
