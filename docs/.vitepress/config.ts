@@ -19,6 +19,10 @@ const nav: NavConfig = [
     text: '关于',
     link: '/about/',
   },
+  {
+    text: '返回主站',
+    link: 'https://baidu.com'
+  }
 ]
 
 const baseConfig = {

@@ -17,4 +17,7 @@ hero:
     - theme: alt
       text: 关于
       link: /about
+    - theme: alt
+      text: 返回主站
+      link: https://baidu.com
 ---
