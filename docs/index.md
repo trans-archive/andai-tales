@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "王安黛小说集"
-  text: "曾用笔名苦樱/12年经验的百合推理作者"
+  text: "曾用笔名苦樱 - 12年经验的百合推理作者"
   tagline: "\n作者本人倾情授权"
   # image:
   #   src: /logo.png

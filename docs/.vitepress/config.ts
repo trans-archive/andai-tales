@@ -23,6 +23,7 @@ const nav: NavConfig = [
 
 const baseConfig = {
   useTitleFromFrontmatter: true,
+  sortMenusByFrontmatterOrder: true,
   useFolderTitleFromIndexFile: true,
   useFolderLinkFromIndexFile: true,
   excludeFilesByFrontmatterFieldName: true,

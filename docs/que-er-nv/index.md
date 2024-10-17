@@ -2,7 +2,7 @@
 title: 缺耳女
 icon: creative
 category:
-  - literature
+  - 缺耳女
 index: false
 author: 王安黛
 copyright:
@@ -10,7 +10,7 @@ copyright:
   url: https://x.com/a823149315
 ---
 
-## 设定
+### 设定
 
 - 每一节的叙述者不同，会在标题写明。
 - 2022年 失忆女人。此类章节中“我”即为失忆女人第一视角。
